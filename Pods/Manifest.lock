@@ -1,0 +1,18 @@
+PODS:
+  - IQKeyboardManager (4.0.7)
+  - SVProgressHUD (2.0.4)
+  - YYCache (1.0.4)
+
+DEPENDENCIES:
+  - IQKeyboardManager (~> 4.0.7)
+  - SVProgressHUD (~> 2.0.4)
+  - YYCache (~> 1.0.4)
+
+SPEC CHECKSUMS:
+  IQKeyboardManager: 69002bb4fea60596b710e57d426abc00e5063630
+  SVProgressHUD: bfde85ed6c573ea802b9cb37894ed9b629034f1b
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+
+PODFILE CHECKSUM: 3884cc13662e6383f18bf406396c868aa117cb2e
+
+COCOAPODS: 1.2.0.beta.1

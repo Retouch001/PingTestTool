@@ -7,14 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		70FFFCC21E375006459C0DA2 /* libPods-ping检测工具Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AE435F692BC94BB71FAD76E /* libPods-ping检测工具Tests.a */; };
+		8583C8F84E37B0A147F4CFD1 /* libPods-ping检测工具UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 847930BA592225552042667E /* libPods-ping检测工具UITests.a */; };
+		93583CB77415BD9DD1B3052A /* libPods-ping检测工具.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25B256DFC4A7356C4586C771 /* libPods-ping检测工具.a */; };
+		D01912951DF90F49006E83B6 /* ScreenDataTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D01912931DF90F49006E83B6 /* ScreenDataTableViewCell.m */; };
+		D01912961DF90F49006E83B6 /* ScreenDataTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D01912941DF90F49006E83B6 /* ScreenDataTableViewCell.xib */; };
+		D01912A11DFA8F5B006E83B6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D01912A01DFA8F5B006E83B6 /* CoreLocation.framework */; };
+		D01912A71DFA8FD3006E83B6 /* BGLogation.m in Sources */ = {isa = PBXBuildFile; fileRef = D01912A41DFA8FD3006E83B6 /* BGLogation.m */; };
+		D01912A81DFA8FD3006E83B6 /* BGTask.m in Sources */ = {isa = PBXBuildFile; fileRef = D01912A61DFA8FD3006E83B6 /* BGTask.m */; };
+		D01912AA1DFAA5FA006E83B6 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D01912A91DFAA5FA006E83B6 /* MobileCoreServices.framework */; };
+		D01912AD1DFAAEF6006E83B6 /* NSObject+NSLocalNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = D01912AC1DFAAEF6006E83B6 /* NSObject+NSLocalNotification.m */; };
 		D0775AF71DF68BEB002D453A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0775AF61DF68BEB002D453A /* main.m */; };
 		D0775AFA1DF68BEB002D453A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0775AF91DF68BEB002D453A /* AppDelegate.m */; };
-		D0775AFD1DF68BEB002D453A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0775AFC1DF68BEB002D453A /* ViewController.m */; };
 		D0775B001DF68BEB002D453A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0775AFE1DF68BEB002D453A /* Main.storyboard */; };
 		D0775B021DF68BEB002D453A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0775B011DF68BEB002D453A /* Assets.xcassets */; };
 		D0775B051DF68BEB002D453A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0775B031DF68BEB002D453A /* LaunchScreen.storyboard */; };
 		D0775B101DF68BEB002D453A /* ping____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0775B0F1DF68BEB002D453A /* ping____Tests.m */; };
 		D0775B1B1DF68BEB002D453A /* ping____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0775B1A1DF68BEB002D453A /* ping____UITests.m */; };
+		D0775B2B1DF6A3D2002D453A /* STSimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = D0775B2A1DF6A3D2002D453A /* STSimplePing.m */; };
+		D0775B301DF6A3E7002D453A /* STDebugFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = D0775B2D1DF6A3E7002D453A /* STDebugFoundation.m */; };
+		D0775B311DF6A3E7002D453A /* STDPingServices.m in Sources */ = {isa = PBXBuildFile; fileRef = D0775B2F1DF6A3E7002D453A /* STDPingServices.m */; };
+		D0775B341DF6A435002D453A /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0775B331DF6A435002D453A /* MainTableViewController.m */; };
+		D0775B371DF7D76D002D453A /* HistoricalReportTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0775B361DF7D76D002D453A /* HistoricalReportTableViewController.m */; };
+		D0775B3B1DF7DD4E002D453A /* HistoricalReportTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D0775B391DF7DD4E002D453A /* HistoricalReportTableViewCell.m */; };
+		D0775B3C1DF7DD4E002D453A /* HistoricalReportTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0775B3A1DF7DD4E002D453A /* HistoricalReportTableViewCell.xib */; };
+		D0775B3E1DF80189002D453A /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D0775B3D1DF80189002D453A /* libz.1.2.5.tbd */; };
+		D0775B411DF81D24002D453A /* UIView+CornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = D0775B401DF81D24002D453A /* UIView+CornerRadius.m */; };
+		D0775B441DF8EFF2002D453A /* OriginalDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0775B431DF8EFF2002D453A /* OriginalDataTableViewController.m */; };
+		D0775B491DF8FE89002D453A /* OriginalDataTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D0775B481DF8FE89002D453A /* OriginalDataTableViewCell.m */; };
+		D0775B4C1DF902D7002D453A /* ScreenDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0775B4B1DF902D7002D453A /* ScreenDataTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +56,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0BCBB30A6F36F4967A28C1D6 /* Pods-ping检测工具.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ping检测工具.release.xcconfig"; path = "Pods/Target Support Files/Pods-ping检测工具/Pods-ping检测工具.release.xcconfig"; sourceTree = "<group>"; };
+		1AE435F692BC94BB71FAD76E /* libPods-ping检测工具Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ping检测工具Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25B256DFC4A7356C4586C771 /* libPods-ping检测工具.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ping检测工具.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4275A801A475F2B3B972C230 /* Pods-ping检测工具UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ping检测工具UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ping检测工具UITests/Pods-ping检测工具UITests.release.xcconfig"; sourceTree = "<group>"; };
+		4B605D2239D979A41EE0B97D /* Pods-ping检测工具UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ping检测工具UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ping检测工具UITests/Pods-ping检测工具UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		847930BA592225552042667E /* libPods-ping检测工具UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ping检测工具UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD4A52C1251FD4CD1EF55213 /* Pods-ping检测工具.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ping检测工具.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ping检测工具/Pods-ping检测工具.debug.xcconfig"; sourceTree = "<group>"; };
+		D01912901DF90AB3006E83B6 /* ScreenDataTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenDataTableViewCell.h; sourceTree = "<group>"; };
+		D01912931DF90F49006E83B6 /* ScreenDataTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenDataTableViewCell.m; sourceTree = "<group>"; };
+		D01912941DF90F49006E83B6 /* ScreenDataTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScreenDataTableViewCell.xib; sourceTree = "<group>"; };
+		D01912971DF90FA0006E83B6 /* ScreenDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenDataTableViewController.h; sourceTree = "<group>"; };
+		D01912A01DFA8F5B006E83B6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D01912A31DFA8FD3006E83B6 /* BGLogation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGLogation.h; sourceTree = "<group>"; };
+		D01912A41DFA8FD3006E83B6 /* BGLogation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGLogation.m; sourceTree = "<group>"; };
+		D01912A51DFA8FD3006E83B6 /* BGTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGTask.h; sourceTree = "<group>"; };
+		D01912A61DFA8FD3006E83B6 /* BGTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGTask.m; sourceTree = "<group>"; };
+		D01912A91DFAA5FA006E83B6 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		D01912AB1DFAAEF6006E83B6 /* NSObject+NSLocalNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+NSLocalNotification.h"; sourceTree = "<group>"; };
+		D01912AC1DFAAEF6006E83B6 /* NSObject+NSLocalNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+NSLocalNotification.m"; sourceTree = "<group>"; };
 		D0775AF21DF68BEB002D453A /* ping检测工具.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ping检测工具.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0775AF61DF68BEB002D453A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D0775AF81DF68BEB002D453A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D0775AF91DF68BEB002D453A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D0775AFB1DF68BEB002D453A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D0775AFC1DF68BEB002D453A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D0775AFF1DF68BEB002D453A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D0775B011DF68BEB002D453A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0775B041DF68BEB002D453A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +89,29 @@
 		D0775B161DF68BEB002D453A /* ping检测工具UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ping检测工具UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0775B1A1DF68BEB002D453A /* ping____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ping____UITests.m"; sourceTree = "<group>"; };
 		D0775B1C1DF68BEB002D453A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0775B291DF6A3D2002D453A /* STSimplePing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STSimplePing.h; sourceTree = "<group>"; };
+		D0775B2A1DF6A3D2002D453A /* STSimplePing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STSimplePing.m; sourceTree = "<group>"; };
+		D0775B2C1DF6A3E7002D453A /* STDebugFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STDebugFoundation.h; sourceTree = "<group>"; };
+		D0775B2D1DF6A3E7002D453A /* STDebugFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STDebugFoundation.m; sourceTree = "<group>"; };
+		D0775B2E1DF6A3E7002D453A /* STDPingServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STDPingServices.h; sourceTree = "<group>"; };
+		D0775B2F1DF6A3E7002D453A /* STDPingServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STDPingServices.m; sourceTree = "<group>"; };
+		D0775B321DF6A435002D453A /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		D0775B331DF6A435002D453A /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
+		D0775B351DF7D76D002D453A /* HistoricalReportTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoricalReportTableViewController.h; sourceTree = "<group>"; };
+		D0775B361DF7D76D002D453A /* HistoricalReportTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoricalReportTableViewController.m; sourceTree = "<group>"; };
+		D0775B381DF7DD4E002D453A /* HistoricalReportTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoricalReportTableViewCell.h; sourceTree = "<group>"; };
+		D0775B391DF7DD4E002D453A /* HistoricalReportTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoricalReportTableViewCell.m; sourceTree = "<group>"; };
+		D0775B3A1DF7DD4E002D453A /* HistoricalReportTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HistoricalReportTableViewCell.xib; sourceTree = "<group>"; };
+		D0775B3D1DF80189002D453A /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+		D0775B3F1DF81D24002D453A /* UIView+CornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CornerRadius.h"; sourceTree = "<group>"; };
+		D0775B401DF81D24002D453A /* UIView+CornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CornerRadius.m"; sourceTree = "<group>"; };
+		D0775B421DF8EFF2002D453A /* OriginalDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OriginalDataTableViewController.h; sourceTree = "<group>"; };
+		D0775B431DF8EFF2002D453A /* OriginalDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OriginalDataTableViewController.m; sourceTree = "<group>"; };
+		D0775B471DF8FE89002D453A /* OriginalDataTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OriginalDataTableViewCell.h; sourceTree = "<group>"; };
+		D0775B481DF8FE89002D453A /* OriginalDataTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OriginalDataTableViewCell.m; sourceTree = "<group>"; };
+		D0775B4B1DF902D7002D453A /* ScreenDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenDataTableViewController.m; sourceTree = "<group>"; };
+		EDBBE25F0DDEA812B118F5B6 /* Pods-ping检测工具Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ping检测工具Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ping检测工具Tests/Pods-ping检测工具Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F359DE58969586D25B31E8C5 /* Pods-ping检测工具Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ping检测工具Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ping检测工具Tests/Pods-ping检测工具Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +119,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D01912AA1DFAA5FA006E83B6 /* MobileCoreServices.framework in Frameworks */,
+				D01912A11DFA8F5B006E83B6 /* CoreLocation.framework in Frameworks */,
+				D0775B3E1DF80189002D453A /* libz.1.2.5.tbd in Frameworks */,
+				93583CB77415BD9DD1B3052A /* libPods-ping检测工具.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70FFFCC21E375006459C0DA2 /* libPods-ping检测工具Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +138,101 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8583C8F84E37B0A147F4CFD1 /* libPods-ping检测工具UITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		60D084F5BB64CBBCA4497BD8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D01912A91DFAA5FA006E83B6 /* MobileCoreServices.framework */,
+				D01912A01DFA8F5B006E83B6 /* CoreLocation.framework */,
+				D0775B3D1DF80189002D453A /* libz.1.2.5.tbd */,
+				25B256DFC4A7356C4586C771 /* libPods-ping检测工具.a */,
+				1AE435F692BC94BB71FAD76E /* libPods-ping检测工具Tests.a */,
+				847930BA592225552042667E /* libPods-ping检测工具UITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D01912981DFA8C9D006E83B6 /* 主界面 */ = {
+			isa = PBXGroup;
+			children = (
+				D0775B321DF6A435002D453A /* MainTableViewController.h */,
+				D0775B331DF6A435002D453A /* MainTableViewController.m */,
+			);
+			name = "主界面";
+			sourceTree = "<group>";
+		};
+		D01912991DFA8C9F006E83B6 /* 历史数据列表 */ = {
+			isa = PBXGroup;
+			children = (
+				D0775B381DF7DD4E002D453A /* HistoricalReportTableViewCell.h */,
+				D0775B391DF7DD4E002D453A /* HistoricalReportTableViewCell.m */,
+				D0775B3A1DF7DD4E002D453A /* HistoricalReportTableViewCell.xib */,
+				D0775B351DF7D76D002D453A /* HistoricalReportTableViewController.h */,
+				D0775B361DF7D76D002D453A /* HistoricalReportTableViewController.m */,
+			);
+			name = "历史数据列表";
+			sourceTree = "<group>";
+		};
+		D019129A1DFA8CA1006E83B6 /* 原始数据界面 */ = {
+			isa = PBXGroup;
+			children = (
+				D0775B471DF8FE89002D453A /* OriginalDataTableViewCell.h */,
+				D0775B481DF8FE89002D453A /* OriginalDataTableViewCell.m */,
+				D0775B421DF8EFF2002D453A /* OriginalDataTableViewController.h */,
+				D0775B431DF8EFF2002D453A /* OriginalDataTableViewController.m */,
+			);
+			name = "原始数据界面";
+			sourceTree = "<group>";
+		};
+		D019129B1DFA8CA2006E83B6 /* 筛选数据界面 */ = {
+			isa = PBXGroup;
+			children = (
+				D01912931DF90F49006E83B6 /* ScreenDataTableViewCell.m */,
+				D01912941DF90F49006E83B6 /* ScreenDataTableViewCell.xib */,
+				D01912901DF90AB3006E83B6 /* ScreenDataTableViewCell.h */,
+				D01912971DF90FA0006E83B6 /* ScreenDataTableViewController.h */,
+				D0775B4B1DF902D7002D453A /* ScreenDataTableViewController.m */,
+			);
+			name = "筛选数据界面";
+			sourceTree = "<group>";
+		};
+		D019129C1DFA8CF3006E83B6 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				D0775B3F1DF81D24002D453A /* UIView+CornerRadius.h */,
+				D0775B401DF81D24002D453A /* UIView+CornerRadius.m */,
+				D01912AB1DFAAEF6006E83B6 /* NSObject+NSLocalNotification.h */,
+				D01912AC1DFAAEF6006E83B6 /* NSObject+NSLocalNotification.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		D019129D1DFA8D31006E83B6 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D01912A21DFA8FD3006E83B6 /* BGLogation */,
+				D0775B281DF6A39F002D453A /* PingTester */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		D01912A21DFA8FD3006E83B6 /* BGLogation */ = {
+			isa = PBXGroup;
+			children = (
+				D01912A31DFA8FD3006E83B6 /* BGLogation.h */,
+				D01912A41DFA8FD3006E83B6 /* BGLogation.m */,
+				D01912A51DFA8FD3006E83B6 /* BGTask.h */,
+				D01912A61DFA8FD3006E83B6 /* BGTask.m */,
+			);
+			path = BGLogation;
+			sourceTree = "<group>";
+		};
 		D0775AE91DF68BEB002D453A = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +240,8 @@
 				D0775B0E1DF68BEB002D453A /* ping检测工具Tests */,
 				D0775B191DF68BEB002D453A /* ping检测工具UITests */,
 				D0775AF31DF68BEB002D453A /* Products */,
+				FCDB4C72EAB3997EACD1AE37 /* Pods */,
+				60D084F5BB64CBBCA4497BD8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +258,14 @@
 		D0775AF41DF68BEB002D453A /* ping检测工具 */ = {
 			isa = PBXGroup;
 			children = (
+				D019129D1DFA8D31006E83B6 /* Utils */,
+				D019129C1DFA8CF3006E83B6 /* Category */,
+				D019129B1DFA8CA2006E83B6 /* 筛选数据界面 */,
+				D019129A1DFA8CA1006E83B6 /* 原始数据界面 */,
+				D01912991DFA8C9F006E83B6 /* 历史数据列表 */,
+				D01912981DFA8C9D006E83B6 /* 主界面 */,
 				D0775AF81DF68BEB002D453A /* AppDelegate.h */,
 				D0775AF91DF68BEB002D453A /* AppDelegate.m */,
-				D0775AFB1DF68BEB002D453A /* ViewController.h */,
-				D0775AFC1DF68BEB002D453A /* ViewController.m */,
 				D0775AFE1DF68BEB002D453A /* Main.storyboard */,
 				D0775B011DF68BEB002D453A /* Assets.xcassets */,
 				D0775B031DF68BEB002D453A /* LaunchScreen.storyboard */,
@@ -140,6 +301,32 @@
 			path = "ping检测工具UITests";
 			sourceTree = "<group>";
 		};
+		D0775B281DF6A39F002D453A /* PingTester */ = {
+			isa = PBXGroup;
+			children = (
+				D0775B291DF6A3D2002D453A /* STSimplePing.h */,
+				D0775B2A1DF6A3D2002D453A /* STSimplePing.m */,
+				D0775B2C1DF6A3E7002D453A /* STDebugFoundation.h */,
+				D0775B2D1DF6A3E7002D453A /* STDebugFoundation.m */,
+				D0775B2E1DF6A3E7002D453A /* STDPingServices.h */,
+				D0775B2F1DF6A3E7002D453A /* STDPingServices.m */,
+			);
+			name = PingTester;
+			sourceTree = "<group>";
+		};
+		FCDB4C72EAB3997EACD1AE37 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD4A52C1251FD4CD1EF55213 /* Pods-ping检测工具.debug.xcconfig */,
+				0BCBB30A6F36F4967A28C1D6 /* Pods-ping检测工具.release.xcconfig */,
+				F359DE58969586D25B31E8C5 /* Pods-ping检测工具Tests.debug.xcconfig */,
+				EDBBE25F0DDEA812B118F5B6 /* Pods-ping检测工具Tests.release.xcconfig */,
+				4B605D2239D979A41EE0B97D /* Pods-ping检测工具UITests.debug.xcconfig */,
+				4275A801A475F2B3B972C230 /* Pods-ping检测工具UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +334,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D0775B1F1DF68BEB002D453A /* Build configuration list for PBXNativeTarget "ping检测工具" */;
 			buildPhases = (
+				26BC2678C8011E73B4ADC844 /* [CP] Check Pods Manifest.lock */,
 				D0775AEE1DF68BEB002D453A /* Sources */,
 				D0775AEF1DF68BEB002D453A /* Frameworks */,
 				D0775AF01DF68BEB002D453A /* Resources */,
+				5F684D463FEB9868326AF0F4 /* [CP] Embed Pods Frameworks */,
+				0658644EA2059B44064C1CCF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +354,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D0775B221DF68BEB002D453A /* Build configuration list for PBXNativeTarget "ping检测工具Tests" */;
 			buildPhases = (
+				FC208833C693700177FCCECE /* [CP] Check Pods Manifest.lock */,
 				D0775B071DF68BEB002D453A /* Sources */,
 				D0775B081DF68BEB002D453A /* Frameworks */,
 				D0775B091DF68BEB002D453A /* Resources */,
+				2E052F406B40553C1764A117 /* [CP] Embed Pods Frameworks */,
+				2413FFC30723EABDADFC6D0A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +375,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D0775B251DF68BEB002D453A /* Build configuration list for PBXNativeTarget "ping检测工具UITests" */;
 			buildPhases = (
+				A0DDFBF2A90FBD2843D0A91A /* [CP] Check Pods Manifest.lock */,
 				D0775B121DF68BEB002D453A /* Sources */,
 				D0775B131DF68BEB002D453A /* Frameworks */,
 				D0775B141DF68BEB002D453A /* Resources */,
+				023E5F6620829A919DAE8BEA /* [CP] Embed Pods Frameworks */,
+				DEB239848DC4B928F9369915 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -209,6 +405,11 @@
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = F3ENB4667F;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					D0775B0A1DF68BEB002D453A = {
 						CreatedOnToolsVersion = 8.1;
@@ -250,6 +451,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0775B051DF68BEB002D453A /* LaunchScreen.storyboard in Resources */,
+				D0775B3C1DF7DD4E002D453A /* HistoricalReportTableViewCell.xib in Resources */,
+				D01912961DF90F49006E83B6 /* ScreenDataTableViewCell.xib in Resources */,
 				D0775B021DF68BEB002D453A /* Assets.xcassets in Resources */,
 				D0775B001DF68BEB002D453A /* Main.storyboard in Resources */,
 			);
@@ -271,14 +474,165 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		023E5F6620829A919DAE8BEA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ping检测工具UITests/Pods-ping检测工具UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0658644EA2059B44064C1CCF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ping检测工具/Pods-ping检测工具-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2413FFC30723EABDADFC6D0A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ping检测工具Tests/Pods-ping检测工具Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		26BC2678C8011E73B4ADC844 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2E052F406B40553C1764A117 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ping检测工具Tests/Pods-ping检测工具Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F684D463FEB9868326AF0F4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ping检测工具/Pods-ping检测工具-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0DDFBF2A90FBD2843D0A91A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DEB239848DC4B928F9369915 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ping检测工具UITests/Pods-ping检测工具UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC208833C693700177FCCECE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D0775AEE1DF68BEB002D453A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0775AFD1DF68BEB002D453A /* ViewController.m in Sources */,
+				D0775B441DF8EFF2002D453A /* OriginalDataTableViewController.m in Sources */,
+				D01912A71DFA8FD3006E83B6 /* BGLogation.m in Sources */,
+				D0775B2B1DF6A3D2002D453A /* STSimplePing.m in Sources */,
+				D01912951DF90F49006E83B6 /* ScreenDataTableViewCell.m in Sources */,
+				D0775B301DF6A3E7002D453A /* STDebugFoundation.m in Sources */,
+				D0775B4C1DF902D7002D453A /* ScreenDataTableViewController.m in Sources */,
+				D0775B341DF6A435002D453A /* MainTableViewController.m in Sources */,
+				D01912A81DFA8FD3006E83B6 /* BGTask.m in Sources */,
+				D0775B3B1DF7DD4E002D453A /* HistoricalReportTableViewCell.m in Sources */,
 				D0775AFA1DF68BEB002D453A /* AppDelegate.m in Sources */,
 				D0775AF71DF68BEB002D453A /* main.m in Sources */,
+				D0775B371DF7D76D002D453A /* HistoricalReportTableViewController.m in Sources */,
+				D0775B411DF81D24002D453A /* UIView+CornerRadius.m in Sources */,
+				D0775B311DF6A3E7002D453A /* STDPingServices.m in Sources */,
+				D0775B491DF8FE89002D453A /* OriginalDataTableViewCell.m in Sources */,
+				D01912AD1DFAAEF6006E83B6 /* NSObject+NSLocalNotification.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,30 +777,37 @@
 		};
 		D0775B201DF68BEB002D453A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD4A52C1251FD4CD1EF55213 /* Pods-ping检测工具.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = F3ENB4667F;
 				INFOPLIST_FILE = "ping检测工具/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.miracle.ping----";
+				PRODUCT_BUNDLE_IDENTIFIER = com.miracle.pingTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		D0775B211DF68BEB002D453A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BCBB30A6F36F4967A28C1D6 /* Pods-ping检测工具.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = F3ENB4667F;
 				INFOPLIST_FILE = "ping检测工具/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.miracle.ping----";
+				PRODUCT_BUNDLE_IDENTIFIER = com.miracle.pingTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
 		D0775B231DF68BEB002D453A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F359DE58969586D25B31E8C5 /* Pods-ping检测工具Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = F3ENB4667F;
@@ -460,6 +821,7 @@
 		};
 		D0775B241DF68BEB002D453A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDBBE25F0DDEA812B118F5B6 /* Pods-ping检测工具Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = F3ENB4667F;
@@ -473,6 +835,7 @@
 		};
 		D0775B261DF68BEB002D453A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B605D2239D979A41EE0B97D /* Pods-ping检测工具UITests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = F3ENB4667F;
 				INFOPLIST_FILE = "ping检测工具UITests/Info.plist";
@@ -485,6 +848,7 @@
 		};
 		D0775B271DF68BEB002D453A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4275A801A475F2B3B972C230 /* Pods-ping检测工具UITests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = F3ENB4667F;
 				INFOPLIST_FILE = "ping检测工具UITests/Info.plist";
@@ -514,6 +878,7 @@
 				D0775B211DF68BEB002D453A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D0775B221DF68BEB002D453A /* Build configuration list for PBXNativeTarget "ping检测工具Tests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +887,7 @@
 				D0775B241DF68BEB002D453A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D0775B251DF68BEB002D453A /* Build configuration list for PBXNativeTarget "ping检测工具UITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +896,7 @@
 				D0775B271DF68BEB002D453A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

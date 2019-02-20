@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MainTableViewController.h
 //  ping检测工具
 //
 //  Created by 方景琦 on 2016/12/6.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface MainTableViewController : UITableViewController
 
 @end
-
